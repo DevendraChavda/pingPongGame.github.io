@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,21 @@
     <title>Ping pong game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="game" class="aside">
-        <h3 id="maintext">
-            <a href="./game.html">
-                click here to start game
-            </a>
-            </h3>
+        <h3 id="maintext">Click here Restart Game</h3>
     </div>
-    <div class="">
-        <p>for player1 move use key A and Key D</p>
-        <p>for player2 move use Arrow Left and right Key</p>
+    <div class="container">
+        <h1>Player 1</h1>
+        <div id="playBoard">
+            <canvas id="playground">
+            </canvas>
+        </div>
+        <h1>Player 2</h1>
     </div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
+
 </html>
