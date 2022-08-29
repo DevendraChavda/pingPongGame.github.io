@@ -187,7 +187,7 @@ game.addEventListener('click', function () {
                 else {
                     alert('Player 2 is winner and scoree is : ' + score2);
                 }
-                maintext.innerText = "click here to restart game";
+                maintext.innerText = "Click here to Restart Game";
                 checkgame = 'start';
                 return;
             }
